@@ -1,0 +1,45 @@
+img {
+  width: 100%;
+}
+
+html {
+   font-family: 'Indie Flower', cursive;
+   font-size: 14;
+   text-align: left;
+   width: 100%;
+   color: black;
+}
+
+h1 {
+   font-family: 'Indie Flower', cursive;
+   font-size: 24;
+   text-align: center;
+   width: 100%;
+   color: black;
+}
+
+h2 {
+   font-family: 'Indie Flower', cursive;
+   font-size: 18;
+   text-align: left;
+   width: 100%;
+   color: blue;
+}
+
+table {
+   font-family: 'Indie Flower', cursive;
+   font-size: 14;
+   width: 80%;
+   color: black;
+}
+
+
+th {
+   font-style: bold;
+   text-align: center;
+}
+
+
+td {
+   text-align: left;
+}
