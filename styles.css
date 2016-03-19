@@ -7,13 +7,11 @@ html {
 
   font-family: 'Indie Flower', cursive;
   color: white;
-  font-size: 24;
 }
 
 
 
 h1 {
-
    font-size: 150;
    text-align: center;
    width: 100%;
@@ -21,10 +19,17 @@ h1 {
 }
 
 span {
-  font-size: 30;
+  font-size: 32;
+  color: white;
   }
 
 a {
-    font-size: 24;
+    font-size: 26;
     color: white;
     }
+
+table {
+    background: rgb(0, 0, 0); /* fallback color */
+    background: rgba(0, 0, 0, 0.7);
+    padding: 10px;
+        }
