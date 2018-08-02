@@ -1,0 +1,24 @@
+html {
+  font-family: 'Indie Flower', cursive;
+  font-size: 20;
+}
+
+
+
+h1 {
+    font-family: 'Indie Flower', cursive;
+    font-size: 100;
+    text-align: center;
+    width: 100%;
+    color: black;
+}
+
+table {
+    width:100%"
+    background: "rgb(0, 0, 0)"; /* fallback color */
+    background: rgba(0, 0, 0, 0.1);
+    padding: 0px;
+        }
+
+hr {
+}
