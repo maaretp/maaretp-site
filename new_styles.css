@@ -25,11 +25,11 @@ h3 {
 
 
 table {
-    width:100%";
+    width: "100%";
     background: "rgb(0, 0, 0)"; /* fallback color */
     background: rgba(0, 0, 0, 0.1);
     padding: 0px;
-        }
+}
 
 .mainnav ul {
   list-style: none;
