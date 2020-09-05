@@ -3,12 +3,9 @@ html {
   font-size: 20;
 }
 
-
-
 h1 {
     font-family: 'Lobster', cursive;
     font-size: 112;
-    text-align: center;
     color: #000000;
 }
 
@@ -41,7 +38,7 @@ table {
 
 @media all and (min-width: 53.125em) {
   .mainnav ul {
-    border-bottom: 4px solid #FF0000; }
+    border-bottom: 4px solid #0492C2; }
   }
 
 .mainnav li {
@@ -63,14 +60,37 @@ table {
   border-bottom: 4px solid #000000;
   margin-bottom: -4px; }
 
+.headshot {
+  width: 30%;
+  border-radius: 50%;
+  float:left;
+}
+
+.listing {
+  width: 95%;
+  text-align: center;
+}
+
+.grouping {
+  text-align: center;
+}
+
+svg {
+  float:left;
+  clear:none;
+}
 
 .main-footer {
-  background-color: #FF0000;
+  background-color: #0492C2;
   color: #ffffff;
   padding: 20px;
   display: grid;
   grid-template-columns: repeat(12, 1fr);
-  grid-gap: 20px; }
+  grid-gap: 20px;
+  border-width: 0px;
+  float:left;
+  clear:none;
+}
 
 .main-footer ul {
   list-style: none;
