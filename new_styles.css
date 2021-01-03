@@ -38,7 +38,7 @@ table {
 
 @media all and (min-width: 53.125em) {
   .mainnav ul {
-    border-bottom: 4px solid #0492C2; }
+    border-bottom: 4px solid #FF0000; }
   }
 
 .mainnav li {
@@ -81,7 +81,7 @@ svg {
 }
 
 .main-footer {
-  background-color: #0492C2;
+  background-color: #FF0000;
   color: #ffffff;
   padding: 20px;
   display: grid;
