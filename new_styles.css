@@ -75,10 +75,11 @@ table {
   text-align: center;
 }
 
-.svg {
-  float:left;
-  clear:none;
-}
+/** Waves **/
+ svg {
+   width: 100%;
+   float:left;
+   clear:none; }
 
 .main-footer {
   background-color: #02A4D3;
