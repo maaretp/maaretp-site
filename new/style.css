@@ -5,6 +5,8 @@ html {
   padding: 0;
 }
 
+
+
 /* Container holding the image and the text */
 .container {
   color: white;
@@ -90,5 +92,13 @@ h4 {
   font-family: 'Shadows Into Light', cursive;
   font-size: 20px;
   margin-bottom: -2px;
+}
+
+a.blacktext:link {
+  color: black;
+}
+
+a.blacktext:visited {
+  color: black;
 }
 
