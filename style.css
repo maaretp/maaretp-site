@@ -1,6 +1,7 @@
 html {
   font-family: 'Raleway';
   text-align: center;
+  font-size: 16px;
   margin: 0;
   padding: 0;
 }
@@ -100,3 +101,55 @@ a.blacktext:visited {
   color: black;
 }
 
+ul {
+  list-style-type: none;
+}
+
+li.bullet {
+  font-size: 12px;
+}
+
+.training-class {
+  width: 80%;
+  padding-left: 10%;
+}
+
+.training-left {
+  padding-right: 10px;
+  vertical-align: center;
+  float: left;
+  display: inline-block;
+  width: 20%;
+}
+
+.training-right {
+  vertical-align: top;
+  float: right;
+  display: inline-block;
+  width: 70%;
+}
+
+
+.circle {
+  font-size: 30px;
+  width:150px;
+  height:150px;
+  border-radius: 50%;
+  line-height: 0;
+  position: relative;
+  background: linear-gradient(135deg, #a7cfdf 0%,#23538a 100%);
+  box-shadow: inset -8px -7px 4px 0px rgba(0,0,0,0.3);
+}
+
+.circle-txt {
+  position: absolute;
+  bottom: 50%;
+  width: 100%;
+  text-align: center;
+  font-family: 'Shadows Into Light', cursive;
+}
+
+.title {
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 20px;
+}
