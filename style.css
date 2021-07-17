@@ -153,3 +153,24 @@ li.bullet {
   font-family: 'Shadows Into Light', cursive;
   font-size: 20px;
 }
+
+.book-title {
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 100px;
+}
+
+.book-subtitle {
+  font-family: 'Raleway';
+  font-size: 40px;
+}
+
+.book-author {
+  font-family: 'Raleway';
+  font-size: 50px;
+  color: red;
+}
+
+.book-slogan {
+  font-family: 'Raleway';
+  font-size: 40px;
+}
