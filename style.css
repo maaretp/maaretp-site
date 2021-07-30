@@ -110,25 +110,17 @@ li.bullet {
 }
 
 .training-class {
-  width: 80%;
+  width: 90%;
   padding-left: 10%;
 }
 
-.training-left {
-  padding-right: 10px;
-  vertical-align: center;
+.training-alignment {
+  height: 100px;
+  margin-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
   float: left;
-  display: inline-block;
-  width: 20%;
 }
-
-.training-right {
-  vertical-align: top;
-  float: right;
-  display: inline-block;
-  width: 70%;
-}
-
 
 .circle {
   font-size: 30px;
@@ -138,6 +130,28 @@ li.bullet {
   line-height: 0;
   position: relative;
   background: linear-gradient(135deg, #a7cfdf 0%,#23538a 100%);
+  box-shadow: inset -8px -7px 4px 0px rgba(0,0,0,0.3);
+}
+
+.circle-brochures {
+  font-size: 30px;
+  width:150px;
+  height:150px;
+  border-radius: 50%;
+  line-height: 0;
+  position: relative;
+  background: linear-gradient(135deg, #a7cfdf 0%,#c52b92 100%);
+  box-shadow: inset -8px -7px 4px 0px rgba(0,0,0,0.3);
+}
+
+.circle-history {
+  font-size: 30px;
+  width:150px;
+  height:150px;
+  border-radius: 50%;
+  line-height: 0;
+  position: relative;
+  background: linear-gradient(135deg, #a7cfdf 0%,#27a6af 100%);
   box-shadow: inset -8px -7px 4px 0px rgba(0,0,0,0.3);
 }
 
