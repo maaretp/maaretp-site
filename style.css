@@ -95,6 +95,7 @@ h4 {
 
 a.blacktext:link {
   color: black;
+  text-decoration: underline;
 }
 
 a.blacktext:visited {
