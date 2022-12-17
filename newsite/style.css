@@ -1,0 +1,10 @@
+#gallery{
+    /* enter basic CSS to style the gallery here */
+}
+
+@media (min-width: 600px){
+    #gallery{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
