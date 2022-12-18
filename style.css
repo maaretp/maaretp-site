@@ -432,3 +432,56 @@ h3 {
     color: white;
     margin-bottom: 10px;
 }
+
+.trainings {
+    width: 100%;
+    padding: 100px  0px;
+    background-color: white;
+    text-align: center;
+}
+
+.box3 {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.box3 img {
+    border-radius: 10%;
+    width: 340px;
+    height: auto;
+    padding-right: 0px;
+}
+
+.card3 {
+    min-width: 380px;
+    height: 560px;
+    width: 380px;
+    padding: 20px 20px;
+    background: #191919;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+
+.card3 p {
+    font-size: 14px;
+    color: white;
+    display: block;
+    margin: 25px 0px;
+}
+
+.card3 a {
+    text-decoration: none;
+}
+
+.card3text {
+    color: white;
+    margin-bottom: 10px;
+}
+
+a:visited {
+    color: white;
+}
