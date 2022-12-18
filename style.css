@@ -1,191 +1,315 @@
-html {
-  font-family: 'Raleway';
-  text-align: center;
-  font-size: 16px;
-  margin: 0;
-  padding: 0;
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Josefin Sans', sans-serif;
+    box-sizing: border-box;
 }
 
-/* Container holding the image and the text */
-.container {
-  color: white;
-  position: relative;
+.hero{
+    height: 100vh;
+    width: 100%;
+    background-image: url(./images/Maaret-background.jpg);
+    background-size: cover;
+    background-position: center;
+    }
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 45px;
+    padding-left: 8%;
+    padding-right: 8%;
 }
 
-.name {
-  position: absolute;
-  bottom: 30px;
-  left: 20px;
-  font-family: 'Shadows Into Light', cursive;
-  font-size: 60px;
+.logo{
+    color: white;
+    font-size: 35px;
+    letter-spacing: 1px;
+    cursor: pointer;
 }
 
-.punchline {
-  position: absolute;
-  bottom: 10px;
-  left: 20px;
+span {
+    color: #ff6b81;
 }
 
-.social {
-  position: absolute;
-  top: 10px;
-  right: 20px;
-  font-size: 24px;
-
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px  25px;
 }
 
-/* unvisited link */
-a:link {
-  color: white;
-  text-decoration: none;
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
 }
 
-/* visited link */
-a:visited {
-  color: white;
-  text-decoration: none;
+nav ul li a:hover {
+    color: #ff6b81;
+    transition: .4s;
 }
 
-/* mouse over link */
-a:hover {
-  color: yellow;
-  text-decoration: none;
+button {
+    background-color: #ff6b81;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 10px 25px;
+    border-radius: 30px;
+    transition: transform .4s;
+}
+
+button:hover {
+    transform: scale(1.2);
+}
+
+.me {
+    position: absolute;
+    top: 50%;
+    left: 8%;
+    transform: translateY(-50%);
+}
+
+h1 {
+    color: white;
+    margin: 20px  0px  20px;
+    font-size: 75px;
+    letter-spacing: 2px;
+}
+
+h3 {
+    color: white;
+    margin: 20px  0px  20px;
+    font-size: 20px;
+}
+
+.social, .social a {
+    color: white;
+    font-size: 30px;
+    padding-top: 10px;
 }
 
 .support {
-  position: absolute;
-  bottom: 10px;
-  right: 10px;
+    padding-top: 30px;
 }
 
-img.headshot{
-  width: 100%;
-  z-index: 0;
+.about {
+    width: 100%;
+    padding: 100px  0px;
+    background-color: white;
 }
 
-img.flag {
+.about img {
+    height: auto;
+    width: 400px;
+    border-radius: 50%;
+    padding-right: 20px;
 }
 
-img.awards {
-  border-radius: 50%;
-  width: 10%;
+.about-text {
+    width: 550px;
 }
 
-img.books {
-  height: 200px;
-  border: 1px solid black;
-  margin-top: 3px;
+.about-main {
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
 
-img.causes {
-  height: 100px;
-  margin-top: 3px;
-  margin-block: 5px;
+.about-text h2 {
+    color: #ff6b81;
+    font-size: 75px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
 }
 
-.flags-container {
-  color:black;
+.about-text h5 {
+    color: black;
+    letter-spacing: 2px;
+    font-size: 22px;
+    margin-bottom: 20px;
+    text-transform: capitalize;
 }
 
-h4 {
-  font-family: 'Shadows Into Light', cursive;
-  font-size: 20px;
-  margin-bottom: -2px;
+.about-text p {
+    padding-bottom: 30px;
 }
 
-a.blacktext:link {
-  color: black;
-  text-decoration: underline;
+.about-text h6 {
+    font-size: 16px;
+    color: #ff6b81;
+    padding-bottom: 5px;
+    padding-top: 10px;
 }
 
-a.blacktext:visited {
-  color: black;
+.speaking img {
+    border-radius: 0%;
+    width: 30px;
+    height: auto;
+    padding-right: 1px;
 }
 
-ul {
-  list-style-type: none;
+.awards img {
+    border-radius: 0%;
+    width: 120px;
+    height: auto;
+    padding-right: 20px;
 }
 
-li.bullet {
-  font-size: 12px;
+.books img {
+    border-radius: 0%;
+    width: auto;
+    height: 150px;
+    padding-right: 20px;
+    padding-bottom: 30px;
 }
 
-.training-class {
-  width: 80%;
-  padding-left: 10%;
+.causes {
+    width: 100%;
+    padding: 100px  0px;
+    background-color: whitesmoke;
+    text-align: center;
 }
 
-.training-alignment {
-  height: 100px;
-  margin-top: 20px;
-  padding-left: 20px;
-  padding-right: 20px;
-  float: left;
+.causes-big img {
+    padding-top: 20px;
+    border-radius: 10%;
+    width: 200px;
+    height: auto;
+    padding-right: 20px;
 }
 
-.circle {
-  font-size: 30px;
-  width:150px;
-  height:150px;
-  border-radius: 50%;
-  line-height: 0;
-  position: relative;
-  background: linear-gradient(135deg, #a7cfdf 0%,#23538a 100%);
-  box-shadow: inset -8px -7px 4px 0px rgba(0,0,0,0.3);
+.causes h2 {
+    color: #ff6b81;
+    font-size: 75px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
 }
 
-.circle-brochures {
-  font-size: 30px;
-  width:150px;
-  height:150px;
-  border-radius: 50%;
-  line-height: 0;
-  position: relative;
-  background: linear-gradient(135deg, #a7cfdf 0%,#c52b92 100%);
-  box-shadow: inset -8px -7px 4px 0px rgba(0,0,0,0.3);
+.contents, .upcoming {
+    width: 100%;
+    padding: 100px  0px;
+    background-color: #101010;
 }
 
-.circle-history {
-  font-size: 30px;
-  width:150px;
-  height:150px;
-  border-radius: 50%;
-  line-height: 0;
-  position: relative;
-  background: linear-gradient(135deg, #a7cfdf 0%,#27a6af 100%);
-  box-shadow: inset -8px -7px 4px 0px rgba(0,0,0,0.3);
+.title h2 {
+    color: white;
+    font-size: 75px;
+    width: 1130px; 
+    text-transform: capitalize;
+    margin-bottom: 30px auto;
+    text-align: center;
 }
 
-.circle-txt {
-  position: absolute;
-  bottom: 50%;
-  width: 100%;
-  text-align: center;
-  font-family: 'Shadows Into Light', cursive;
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
 }
 
-.title {
-  font-family: 'Shadows Into Light', cursive;
-  font-size: 20px;
+.card {
+    height: 365px;
+    width: 335px;
+    padding: 20px 35px;
+    background: #191919;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
 }
 
-.book-title {
-  font-family: 'Shadows Into Light', cursive;
-  font-size: 100px;
+.card i {
+    font-size: 50px;
+    color: #ff6b81;
+    display: block;
+    margin: 25px 0px;
 }
 
-.book-subtitle {
-  font-family: 'Raleway';
-  font-size: 40px;
+.card h5 {
+    color: white;
+    font-size: 20px;
+    margin-bottom: 15px;
 }
 
-.book-author {
-  font-family: 'Raleway';
-  font-size: 50px;
-  color: red;
+.preview p {
+    color: white;
+    font-size: 15px;
+    line-height: 27px;
+    margin-bottom: 25px;
 }
 
-.book-slogan {
-  font-family: 'Raleway';
-  font-size: 40px;
+.card .button {
+    background-color: #ff6b81;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 9px 22px;
+    border-radius: 30px;
+    transition: .4s;
+}
+
+.card .button:hover {
+    background-color: transparent;
+    border: 2px solid #ff6b81;
+    cursor: pointer;
+}
+
+.contact {
+    background-color: #ff6b81;
+    text-align: center;
+}
+
+.contact h2 {
+    color: white;
+    font-size: 40px;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+    padding-top: 10px;
+}
+
+.upcoming ul li {
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    list-style-type: none;
+    display: list-item;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.upcoming a {
+    color: white;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+.contents2 {
+    width: 100%;
+    padding: 10px  0px;
+    background-color: white;
+    text-align: center;
+}
+
+
+.contents2 h2, h3{
+    width: 100%;
+    padding: 20px  0px;
+    text-align: center;
+    color: #ff6b81;
+    background-color: white;
+}
+
+.contents2 * {
+    color: black;
+    font-size: 16px;
+    text-align: center;
 }
