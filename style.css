@@ -300,7 +300,7 @@ h3 {
 }
 
 
-.contents2 h2, h3{
+.contents2-title {
     width: 100%;
     padding: 20px  0px;
     text-align: center;
@@ -308,7 +308,7 @@ h3 {
     background-color: white;
 }
 
-.contents2 * {
+.contents2 p {
     color: black;
     font-size: 16px;
     text-align: center;
