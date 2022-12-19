@@ -332,9 +332,9 @@ h3 {
     text-align: center;
 }
 
-.talks {
+.talks, .workshops_tutorials, .trainings {
     width: 100%;
-    padding: 100px  0px;
+    padding: 30px  0px;
     background-color: white;
     text-align: center;
 }
@@ -431,27 +431,7 @@ h3 {
 .card2text {
     color: white;
     margin-bottom: 10px;
-}
-
-.trainings {
-    width: 100%;
-    padding: 100px  0px;
-    background-color: white;
-    text-align: center;
-}
-
-.box3 {
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-}
-
-.box3 img {
-    border-radius: 10%;
-    width: 340px;
-    height: auto;
-    padding-right: 0px;
-}
+} 
 
 .card3 {
     min-width: 380px;
