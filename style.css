@@ -499,3 +499,8 @@ a:visited {
     color: #ff6b81;
     transition: .4s;
 }
+
+.sectiondescr h2, p {
+    padding-left: 20px;
+    padding-right: 20px;
+}
