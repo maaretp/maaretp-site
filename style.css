@@ -347,15 +347,15 @@ h3 {
 
 .box2 img {
     border-radius: 10%;
-    width: 340px;
+    width: 380px;
     height: auto;
     padding-right: 0px;
 }
 
 .card2 {
-    min-width: 380px;
-    height: 380px;
-    width: 380px;
+    min-width: 420px;
+    height: 420px;
+    width: 420px;
     padding: 20px 20px;
     background: #191919;
     border-radius: 20px;
@@ -477,8 +477,8 @@ a:visited {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-left: 20%;
-    padding-right: 20%;
+    padding-left: 10%;
+    padding-right: 10%;
     padding-bottom: 20px;
 }
 
