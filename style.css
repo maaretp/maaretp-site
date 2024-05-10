@@ -516,7 +516,7 @@ a:visited {
 
 .dark h2 {
     color: white;
-    font-size: 75px;
+    font-size: 60px;
     width: 980px; 
     text-transform: capitalize;
     margin-bottom: 30px auto;
@@ -540,5 +540,41 @@ a:visited {
 }
 
 .dark a:hover {
+    color: gold;
+}
+
+
+.light {
+    width: 100%;
+    padding: 100px  0px;
+    background-color: white;
+}
+
+.light h2 {
+    color: #ff6b81;
+    font-size: 60px;
+    width: 980px; 
+    text-transform: capitalize;
+    margin-bottom: 30px auto;
+    text-align: center;
+}
+
+.light ul li {
+    font-size: 20px;
+    text-align: center;
+    color: black;
+    list-style-type: none;
+    display: list-item;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.light a {
+    color: black;
+    text-decoration: underline;
+    text-transform: capitalize;
+}
+
+.light a:hover {
     color: gold;
 }
