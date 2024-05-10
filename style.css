@@ -197,7 +197,7 @@ h3 {
     margin-bottom: 20px;
 }
 
-.contents, .upcoming .dark{
+.contents, .upcoming{
     width: 100%;
     padding: 100px  0px;
     background-color: #101010;
@@ -285,7 +285,7 @@ h3 {
     margin-bottom: 10px;
 }
 
-.upcoming .dark ul li {
+.upcoming ul li {
     font-size: 20px;
     text-align: center;
     color: white;
@@ -295,13 +295,13 @@ h3 {
     padding-top: 10px;
 }
 
-.upcoming .dark a {
+.upcoming a {
     color: white;
     text-decoration: underline;
     text-transform: capitalize;
 }
 
-.upcoming .dark a:hover {
+.upcoming a:hover {
     color: gold;
 }
 
@@ -504,4 +504,39 @@ a:visited {
 .sectiondescr h2, p {
     padding-left: 20px;
     padding-right: 20px;
+}
+
+/* Styles for me elsewhere and trainings */
+
+.dark {
+    width: 100%;
+    padding: 100px  0px;
+    background-color: #101010;
+}
+
+.dark h2 {
+    color: white;
+    font-size: 75px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
+.dark ul li {
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    list-style-type: none;
+    display: list-item;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.dark a {
+    color: white;
+    text-decoration: underline;
+    text-transform: capitalize;
+}
+
+.dark a:hover {
+    color: gold;
 }
