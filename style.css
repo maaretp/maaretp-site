@@ -523,6 +523,12 @@ a:visited {
     text-align: center;
 }
 
+.dark h3 {
+    color: white;
+    margin: 10px  0px  10px;
+    font-size: 20px;
+}
+
 .dark ul li {
     font-size: 20px;
     text-align: left;
@@ -559,12 +565,10 @@ a:visited {
     margin-bottom: 30px auto;
 }
 
-.light p {
+.light h3 {
     color: black;
+    margin: 10px  0px  10px;
     font-size: 20px;
-    width: 980px;
-    text-align: center;
-    margin-bottom: 30px auto;
 }
 
 .light ul li {
