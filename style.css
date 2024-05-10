@@ -586,7 +586,10 @@ a:visited {
     color: gold;
 }
 
-.bullet {
+.bullet li {
     padding-left: 30%;
     text-align: left;
+    list-style-type: square;
+    display: inline-block;
+    padding: 10px  25px;
 }
