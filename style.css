@@ -529,6 +529,7 @@ a:visited {
     color: white;
     list-style-type: none;
     display: list-item;
+    padding-left: 50px;
     padding-bottom: 10px;
     padding-top: 10px;
 }
