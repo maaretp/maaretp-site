@@ -555,14 +555,14 @@ a:visited {
     font-size: 60px;
     width: 980px;
     text-transform: capitalize;
+    text-align: center;
     margin-bottom: 30px auto;
-    text-align: right;
 }
 
 .light p {
     color: black;
     font-size: 20px;
-    width: 60%;
+    width: 980px;
     text-align: center;
 }
 
