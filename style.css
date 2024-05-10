@@ -585,3 +585,8 @@ a:visited {
 .light a:hover {
     color: gold;
 }
+
+.bullet {
+    padding-left: 30%;
+    text-align: left;
+}
