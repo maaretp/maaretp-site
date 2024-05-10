@@ -517,8 +517,10 @@ a:visited {
 .dark h2 {
     color: white;
     font-size: 75px;
+    width: 980px; 
     text-transform: capitalize;
-    margin-bottom: 20px;
+    margin-bottom: 30px auto;
+    text-align: center;
 }
 
 .dark ul li {
