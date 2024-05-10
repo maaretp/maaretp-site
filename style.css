@@ -197,7 +197,7 @@ h3 {
     margin-bottom: 20px;
 }
 
-.contents, .upcoming {
+.contents, .upcoming .dark{
     width: 100%;
     padding: 100px  0px;
     background-color: #101010;
@@ -285,7 +285,7 @@ h3 {
     margin-bottom: 10px;
 }
 
-.upcoming ul li {
+.upcoming .dark ul li {
     font-size: 20px;
     text-align: center;
     color: white;
@@ -295,13 +295,13 @@ h3 {
     padding-top: 10px;
 }
 
-.upcoming a {
+.upcoming .dark a {
     color: white;
     text-decoration: underline;
     text-transform: capitalize;
 }
 
-.upcoming a:hover {
+.upcoming .dark a:hover {
     color: gold;
 }
 
