@@ -517,16 +517,10 @@ a:visited {
 .dark h2 {
     color: white;
     font-size: 60px;
-    width: 980px; 
+    width: 980px;
     text-transform: capitalize;
     margin-bottom: 30px auto;
     text-align: center;
-}
-
-.dark h3 {
-    color: white;
-    margin: 10px  0px  10px;
-    font-size: 20px;
 }
 
 .dark ul li {
@@ -567,8 +561,8 @@ a:visited {
 
 .light h3 {
     color: black;
-    margin: 10px  0px  10px;
-    font-size: 20px;
+    margin: 50px  0px  50px;
+    font-size: 18px;
 }
 
 .light ul li {
