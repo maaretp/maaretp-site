@@ -595,3 +595,13 @@ a:visited {
 .light a:hover {
     color: gold;
 }
+
+
+.books-contributions img {
+    padding-left: 200px;
+    border-radius: 0%;
+    width: auto;
+    height: 200px;
+    padding-right: 20px;
+    padding-bottom: 30px;
+}
