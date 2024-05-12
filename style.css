@@ -525,11 +525,12 @@ a:visited {
 
 .dark ul li {
     font-size: 20px;
+    width: 980px;
     text-align: left;
     color: white;
     list-style-type: none;
     display: list-item;
-    padding-left: 50px;
+    padding-left: 200px;
     padding-bottom: 10px;
     padding-top: 10px;
 }
@@ -560,18 +561,27 @@ a:visited {
     margin-bottom: 30px auto;
 }
 
-.light div {
+.explain-light {
     color: black;
-    margin: 50px  0px  50px;
+    margin: 20px  0px  20px;
     font-size: 18px;
+    padding-left: 200px;
+}
+
+.explain-dark {
+    color: white;
+    margin: 20px  0px  20px;
+    font-size: 18px;
+    padding-left: 200px;
 }
 
 .light ul li {
     font-size: 20px;
-    text-align: center;
+    text-align: left;
     color: black;
     display: list-item;
     list-style-type: square;
+    padding-left: 200px;
     padding-bottom: 10px;
     padding-top: 10px;
 }
