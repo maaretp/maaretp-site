@@ -528,6 +528,7 @@ a:visited {
     text-align: left;
     color: white;
     list-style-type: none;
+    text-transform: none;
     display: list-item;
     padding-left: 200px;
     padding-bottom: 10px;
@@ -579,6 +580,7 @@ a:visited {
     text-align: left;
     color: black;
     display: list-item;
+    text-transform: none;
     list-style-type: square;
     padding-left: 200px;
     padding-bottom: 10px;
