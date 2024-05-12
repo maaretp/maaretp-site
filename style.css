@@ -597,12 +597,12 @@ a:visited {
 }
 
 
-.books-contributions img {
+.books2 img {
     padding-left: 200px;
     border-radius: 0%;
     width: auto;
     height: 200px;
-    text-alight: center;
+    text-align: center;
     padding-right: 20px;
     padding-bottom: 30px;
 }
