@@ -597,13 +597,16 @@ a:visited {
     color: gold;
 }
 
+.indent {
+    padding-left: 200px;
+}
+
 
 .books2 img {
-    padding-left: 200px;
+    padding-left: 20px;
     border-radius: 0%;
     width: auto;
     height: 300px;
-    text-align: left;
     padding-right: 20px;
     padding-bottom: 30px;
 }
