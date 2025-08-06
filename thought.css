@@ -10,7 +10,18 @@ body {
     align-content:center;
     padding:0 10%;
   }
-  
+
+  .address {
+    position:flex;
+    bottom:20px;
+    left:50%;
+    font-size: 1.2rem;
+    color: #000;
+    transform:translateY(-100%);
+    transform:translateX(+30%););
+  }
+
+
   .thought {
     display:flex;
     background-color:#fff;
@@ -45,7 +56,7 @@ body {
 
   .thought:before,
   .thought:after, .thought-big:before,
-  .thought-big:after {
+  .thought-big:after  {
     content:"";
     background-color:#fff;
     border-radius:50%;
@@ -69,5 +80,5 @@ body {
                -28px -6px 0 -2px #fff,
                -24px 17px 0 -6px #fff,
                -5px 25px 0 -10px #fff;
-    
+
   }
