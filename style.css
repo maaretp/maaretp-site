@@ -162,7 +162,7 @@ h3 {
 
 .awards img {
     border-radius: 0%;
-    width: 120px;
+    width: 100px;
     height: auto;
     padding-right: 20px;
 }
@@ -206,7 +206,7 @@ h3 {
 .title h2 {
     color: white;
     font-size: 75px;
-    width: 980px; 
+    width: 980px;
     text-transform: capitalize;
     margin-bottom: 30px auto;
     text-align: center;
@@ -439,7 +439,7 @@ h3 {
 .card2text {
     color: white;
     margin-bottom: 10px;
-} 
+}
 
 .card3 {
     min-width: 380px;
