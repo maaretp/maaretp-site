@@ -609,3 +609,120 @@ a:visited {
     padding-right: 20px;
     padding-bottom: 30px;
 }
+
+/* Rotating Quotes Section */
+.quotes-section {
+    background-color: #f8f9fa;
+    padding: 80px 0;
+    min-height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.rotating-quotes {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.quote-container .blockquote-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 20px;
+}
+
+.quote-container .blockquote {
+    position: relative;
+    font-family: 'Josefin Sans', sans-serif;
+    max-width: 620px;
+    margin: 0 auto;
+    text-align: center;
+    opacity: 1;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.quote-container .blockquote.fade-out {
+    opacity: 0;
+}
+
+.quote-container .blockquote h1 {
+    font-family: 'Josefin Sans', sans-serif;
+    position: relative;
+    color: #ff6b81;
+    font-size: 2.2rem;
+    font-weight: normal;
+    line-height: 1.2;
+    margin: 0;
+    border: 2px solid #ff6b81;
+    border-radius: 20px;
+    padding: 25px;
+    background: white;
+}
+
+.quote-container .blockquote h1:after {
+    content: "";
+    position: absolute;
+    border: 2px solid #ff6b81;
+    border-radius: 0 50px 0 0;
+    width: 60px;
+    height: 60px;
+    bottom: -62px;
+    left: 50px;
+    border-bottom: none;
+    border-left: none;
+    z-index: 3;
+    background: #f8f9fa;
+}
+
+.quote-container .blockquote h1:before {
+    content: "";
+    position: absolute;
+    width: 80px;
+    border: 6px solid #f8f9fa;
+    bottom: -3px;
+    left: 50px;
+    z-index: 2;
+}
+
+.quote-container .blockquote h4 {
+    position: relative;
+    color: #333;
+    font-size: 1.3rem;
+    font-weight: 400;
+    line-height: 1.2;
+    margin: 0;
+    padding-top: 15px;
+    z-index: 1;
+    margin-left: 150px;
+    padding-left: 12px;
+}
+
+.quote-container .blockquote h4:first-letter {
+    margin-left: -12px;
+}
+
+@media all and (max-width: 768px) {
+    .quote-container .blockquote h1 {
+        font-size: 1.8rem;
+        padding: 20px;
+    }
+
+    .quote-container .blockquote h4 {
+        margin-left: 50px;
+        text-align: center;
+    }
+
+    .quote-container .blockquote h1:after {
+        left: 20px;
+        width: 40px;
+        height: 40px;
+        bottom: -42px;
+    }
+
+    .quote-container .blockquote h1:before {
+        left: 20px;
+        width: 60px;
+    }
+}

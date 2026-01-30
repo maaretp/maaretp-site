@@ -210,6 +210,19 @@
     </div>
 </section>
 
+<section class="quotes-section">
+    <div class="rotating-quotes">
+        <div class="quote-container">
+            <div class="blockquote-wrapper">
+                <div class="blockquote">
+                    <h1 id="quote-text">Quality is not just about preventing bugs. It's about protecting trust.</h1>
+                    <h4 id="quote-author">&mdash;Rachel Kibler</h4>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
 <section class="contact" id="contact">
     <h2>Maaret Pyhäjärvi</h2>
     <p>I read my emails sporadically. For faster response, use Linkedin.</p>
@@ -230,6 +243,99 @@
         <a href="https://fi.wikipedia.org/wiki/Maaret_Pyh%C3%A4j%C3%A4rvi" target="_blank" rel="noopener noreferrer me" title="Wikipedia on me"><i class="fa-brands fa-wikipedia-w"></i></a>    </div>
     <br><br>
 </section>
+
+<script>
+// Array of quotes to rotate through
+const quotes = [
+    {
+        text: "Quality is not just about preventing bugs. It's about protecting trust.",
+        author: "Rachel Kibler"
+    },
+    {
+        text: "Your test suite hasn't finished until every failure is understood.",
+        author: "Titus Fortner"
+    },
+    {
+        text: "Best way to show a system could work is to do your best yet fail at finding problems of relevance.",
+        author: "Maaret Pyhäjärvi"
+    },
+    {
+        text: "You can't be on time if you keep fixing after delivery.",
+        author: "Maaret Pyhäjärvi"
+    },
+    {
+        text: "Finished software is dead software. Living software changes.",
+        author: "Allan Kelly"
+    },
+    {
+        text: "You should be building community of excellence for testing, not a center of excellence. Having power with people wins over power over people.",
+        author: "Maaret Pyhäjärvi"
+    },
+    {
+        text: "Your career is too important to be left for someone else to provide for you as a service. We are all self-employed, some of us just don't realize it yet.",
+        author: "Maaret Pyhäjärvi"
+    },
+    {
+        text: "I'm not sure we need something groundbreaking when a huge majority of teams haven't gotten the hang of basic leading practices.",
+        author: "Lisa Crispin"
+    },
+    {
+        text: "Test automation is manual testing.",
+        author: "Maaret Pyhäjärvi"
+    },
+    {
+        text: "Investing in onboarding is the ultimate shift-left.",
+        author: "Anne-Marie Charrett"
+    },
+    {
+        text: "Writing is the best way to talk without being interrupted.",
+        author: "Jules Renard"
+    },
+    {
+        text: "AI-generated test cases are more a halfway mark than a starting point. Particularly when the tests we generate lock what works as implemented. As expected makes the other half of the journey.",
+        author: "Maaret Pyhäjärvi"
+    },
+    {
+        text: "Testing is confrontation with reality. Verification is too polite. Testing shapes what truth is allowed to surface.",
+        author: "Maaret Pyhäjärvi"
+    },
+    {
+        text: "Testing is your organization's design of what it is willing to see amongst well-maintained illusions of plans.",
+        author: "Maaret Pyhäjärvi"
+    },
+    {
+        text: "Time used on warning about test automation is away from succeeding with it.",
+        author: "Maaret Pyhäjärvi"
+    }
+];
+
+let currentQuoteIndex = 0;
+
+function rotateQuote() {
+    const quoteText = document.getElementById('quote-text');
+    const quoteAuthor = document.getElementById('quote-author');
+    const blockquote = document.querySelector('.blockquote');
+
+    // Start fade out
+    blockquote.classList.add('fade-out');
+
+    // Wait for fade out to complete, then change text and fade in
+    setTimeout(() => {
+        currentQuoteIndex = (currentQuoteIndex + 1) % quotes.length;
+        quoteText.textContent = quotes[currentQuoteIndex].text;
+        quoteAuthor.innerHTML = '&mdash;' + quotes[currentQuoteIndex].author;
+
+        // Remove fade out class to fade back in
+        blockquote.classList.remove('fade-out');
+    }, 250); // Half of the transition duration
+}
+
+// Start rotating quotes when page loads
+document.addEventListener('DOMContentLoaded', function() {
+    // Change quote every 7 seconds
+    setInterval(rotateQuote, 7000);
+});
+</script>
 
 </body>
 </html>
