@@ -711,11 +711,11 @@ a:visited {
     .quotes-section {
         min-height: 400px;
     }
-    
+
     .quote-container .blockquote {
         min-height: 250px;
     }
-    
+
     .quote-container .blockquote h1 {
         font-size: 1.8rem;
         padding: 20px;
