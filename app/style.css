@@ -21,6 +21,6 @@ html {
 
 .page {
   width: 600px;
-  position: flex;
+  position: relative;
   left: 10%;
 }
